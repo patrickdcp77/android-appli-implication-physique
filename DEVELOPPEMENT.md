@@ -107,3 +107,19 @@ git push
 - Le module de travail est:
   - `:app`
 
+## 8) Point d'arret de session
+- Etat global: stable, push GitHub operationnel via SSH.
+- Remote actif:
+  - `origin = git@github.com:patrickdcp77/android-appli-implication-physique.git`
+- Branche active:
+  - `main`
+- Commit de cloture:
+  - ce commit de documentation "Point d'arret de session" sur `main`
+- Documentation disponible:
+  - `documentation/DEVELOPPEMENT.md`
+  - `documentation/images/`
+- Reprise conseillee (prochaine session):
+  1. ajouter un `documentation/README.md` pour indexer les captures,
+  2. verifier/ranger les noms des images,
+  3. continuer les evolutions de l'app puis commit/push sur `main`.
+
