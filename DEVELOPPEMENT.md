@@ -79,24 +79,31 @@ Assemble APK debug:
    - `BPM moyen`
 
 ## 6) Prochaines etapes GitHub
-1. Creer le repository GitHub (vide de preference).
-2. Ajouter le remote et pousser `main`.
-3. Ajouter un tag de version initiale (optionnel), ex: `v1.0.0`.
-4. Ouvrir une PR (si workflow equipe) avec ce document dans la description.
+1. Depot GitHub final publie:
+   - `https://github.com/patrickdcp77/android-appli-implication-physique.git`
+2. Branche distante active:
+   - `main`
+3. Etape suivante recommandee:
+   - ajouter un `README.md` de presentation du projet
+4. Optionnel:
+   - ajouter un tag de version initiale, par exemple `v1.0.0`
+5. Optionnel si travail en equipe:
+   - ouvrir des pull requests pour les prochaines evolutions
 
-Commandes utiles:
+Commandes utiles pour les prochains commits:
 ```bash
-cd /home/patrick/AndroidStudioProjects
+cd /home/patrick/AndroidStudioProjects/_publish_android_ble_judo_3capteurs
 git status
 git add .
-git commit -m "Ajout graphe BPM moyen et renommage app"
-git remote add origin <URL_DU_REPO>
-git push -u origin main
+git commit -m "Mise a jour documentation"
+git push
 ```
 
 ## 7) Notes
-- Le projet peut contenir d'autres dossiers Android dans le workspace; la cible de ce travail est la racine:
-  - `/home/patrick/AndroidStudioProjects`
+- Le workspace source contient d'autres dossiers Android, mais le depot Git publie pour cette application est:
+  - `/home/patrick/AndroidStudioProjects/_publish_android_ble_judo_3capteurs`
+- Le repository GitHub officiel de cette application est:
+  - `https://github.com/patrickdcp77/android-appli-implication-physique.git`
 - Le module de travail est:
   - `:app`
 
