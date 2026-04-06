@@ -1,6 +1,6 @@
 # Document de developpement - Implication physique des judokas
 
-Date de mise a jour: 2026-04-06
+Derniere date de redaction: 2026-04-06
 Projet: `android_BLE_judo_3capteurs`
 Module principal: `app`
 
